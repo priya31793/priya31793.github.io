@@ -97,11 +97,34 @@ hr {
   text-align: center;
   height: 100vh;
 }
+
+/* @media (max-width: 768px) {
+  .templatemo-home {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll;
+  }
+} */
+@media (max-width: 768px) {
+  .tm-home-subtitle {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+
+  .tm-view-more-btn {
+    font-size: 16px;
+  }
+}
+
+
 .tm-home-title,
  .tm-home-subtitle {
   text-transform: uppercase;
  }
-.tm-home-title { font-size: 50px; }
+.tm-home-title { font-size: 50px;
+  margin-top: 80px;
+}
 .tm-home-subtitle {
   color: #eb5424;
   font-weight: bold;
@@ -158,6 +181,7 @@ hr {
 .tm-portfolio {
   background: #f8f8f8;
   padding-top: 80px;
+
 }
 .tm-portfolio .container {
   width: 100%;
@@ -420,7 +444,18 @@ input { height: 50px; }
 /* END MEDIA 980 */
 
 @media screen and (max-width: 767px) {
-  .tm-home-title { font-size: 40px; }
+  .tm-home-title { font-size: 20px;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .tm-my-profile-home { margin-top:100px; margin-bottom: 100px;}
+  .tm-my-profile { padding: 30px; }
+  .tm-padding-top-bottom-100 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 
 /* START MEDIA 360 */
